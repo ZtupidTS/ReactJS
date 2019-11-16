@@ -49,16 +49,16 @@ class OrganizationLayout extends React.Component {
             Icon6={StaffIcon}
             link2="/mydrive"
             link3="/inbox"
-            link5="/instdash"
-            link6="/staff"
+            link5="/instilist"
+            link6="/stafflist"
             />   
             <Sidebar
             Button = {"UploadButton"}
             Icon1 = {DriveIcon} title1="Drive storage" link1="/mydrive"
             Icon2 = {MailIcon} title2="Mail service" link2="/inbox"
             Icon3 = {VideoIcon} title3="Video chat" 
-            Icon4 = {InstituteIcon} title4="Institute" link4="/instdash"
-            Icon5 = {StaffIcon} title5="Staff" 
+            Icon4 = {InstituteIcon} title4="Institute" link4="/instilist"
+            Icon5 = {StaffIcon} title5="stafflist" 
             />
       <main className={classes.content}>
         <div className={classes.toolbar}/>  

@@ -154,7 +154,7 @@ class InstituteDash extends React.Component  {
           xl={3}
           xs={12}
         >
-          <Link to="/teacherdash" style={{textDecorationLine:'none'}}>
+          <Link to="/addteacher" style={{textDecorationLine:'none'}}>
             <Card className={classes.card}>
                   <CardMedia>
                     <StaffIcon style={{fontSize:100}} color="primary"/>
@@ -180,7 +180,7 @@ class InstituteDash extends React.Component  {
           xl={3}
           xs={12}
         >
-          <Link to="/studentdash" style={{textDecorationLine:'none'}}>
+          <Link to="/addstudent" style={{textDecorationLine:'none'}}>
            <Card className={classes.card}>
                   <CardMedia>
                     <StudentIcon style={{fontSize:100}} color="primary"/>

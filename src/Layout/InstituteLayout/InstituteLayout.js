@@ -60,8 +60,8 @@ class InstituteLayout extends React.Component {
             Icon6={StudentIcon}  
             link2="/mydrive"
             link3="/inbox"
-            link5="/teacherdash"
-            link6="/studentdash"
+            link5="/teacherlist"
+            link6="/studentlist"
 
             
             />   
@@ -70,8 +70,8 @@ class InstituteLayout extends React.Component {
             Icon1 = {DriveIcon} title1="Drive Storage" link1="/mydrive"
             Icon2 = {MailIcon} title2="Mail Service" link2="/inbox"
             Icon3 = {VideoIcon} title3="Video Chat" 
-            Icon4 = {TeacherIcon} title4="Teacher" link4="/teacherdash"
-            Icon5 = {StudentIcon} title5="Student" link5="/studentdash"
+            Icon4 = {TeacherIcon} title4="Teacher" link4="/teacherlist"
+            Icon5 = {StudentIcon} title5="Student" link5="/studentlist"
             
             />
       <main className={classes.content}>
