@@ -65,7 +65,8 @@ class PasswordChange extends React.Component {
                     name="password"
                     autoFocus
                     value={this.state.password}
-                        
+                    onChange={e => this.setState({ password: e.target.value })}             
+    
                 
                 />
                 <TextField
@@ -79,7 +80,8 @@ class PasswordChange extends React.Component {
                     id="confirmpassword"
                     autoComplete="confirmpassword"
                     value={this.state.confirmpassword}
-                           
+                    onChange={e => this.setState({ confirmpassword: e.target.value })}             
+       
                 
                 />
                

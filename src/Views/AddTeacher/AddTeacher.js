@@ -80,6 +80,8 @@ class AddTeacher extends React.Component{
                 label="First Name"
                 autoFocus
                 value={this.state.firstname}
+                onChange={e => this.setState({ firstname: e.target.value })}             
+
                             
                  />
               	
@@ -94,6 +96,8 @@ class AddTeacher extends React.Component{
                 name="lastName"
                 autoComplete="lastname"
                 value={this.state.lastname}
+                onChange={e => this.setState({ lastname: e.target.value })}             
+
                     />
               	                
               
@@ -109,6 +113,8 @@ class AddTeacher extends React.Component{
                 name="Username"
                 // autoComplete="department"
                 value={this.state.username}
+                onChange={e => this.setState({ username: e.target.value })}             
+
                       />
               	                
               
@@ -123,6 +129,8 @@ class AddTeacher extends React.Component{
                 name="Department"
                 // autoComplete="department"
                 value={this.state.department}
+                onChange={e => this.setState({ department: e.target.value })}             
+
                     />
               	                
               
@@ -137,6 +145,8 @@ class AddTeacher extends React.Component{
                 name="Subject"
                 // autoComplete="subject"
                 value={this.state.subject}
+                onChange={e => this.setState({ subject: e.target.value })}             
+
                           />
               	                
               
@@ -151,6 +161,8 @@ class AddTeacher extends React.Component{
                 name="Division"
                 // autoComplete="subject"
                 value={this.state.division}
+                onChange={e => this.setState({ division: e.target.value })}             
+
                        />
               	                
               
@@ -165,6 +177,8 @@ class AddTeacher extends React.Component{
                 name="Class"
                 // autoComplete="class"
                 value={this.state.class}
+                onChange={e => this.setState({ class: e.target.value })}             
+
                         />
               	                
               
@@ -179,6 +193,8 @@ class AddTeacher extends React.Component{
                 name="contactemail"
                 // autoComplete="email"
                 value={this.state.contactemail}
+                onChange={e => this.setState({ contactemail: e.target.value })}             
+
                   />
               
             </Grid>
@@ -195,6 +211,8 @@ class AddTeacher extends React.Component{
                 id="otp"
                
                 value={this.state.otp}
+                onChange={e => this.setState({ otp: e.target.value })}             
+
                        />
               	
             </Grid>

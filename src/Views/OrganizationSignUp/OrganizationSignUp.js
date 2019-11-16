@@ -81,6 +81,8 @@ class OrganizationSignUp extends React.Component{
                 name="organizationname"
                 // autoComplete="department"
                 value={this.state.organizationname}
+                onChange={e => this.setState({ organizationname: e.target.value })}             
+
                              />
               	                
               
@@ -97,7 +99,8 @@ class OrganizationSignUp extends React.Component{
                 label="First Name"
                 autoFocus
                 value={this.state.firstname}
-                         
+                onChange={e => this.setState({ firstname: e.target.value })}             
+         
                  />
               	
             </Grid>
@@ -111,6 +114,8 @@ class OrganizationSignUp extends React.Component{
                 name="lastName"
                 autoComplete="lastname"
                 value={this.state.lastname}
+                onChange={e => this.setState({ lastname: e.target.value })}             
+
                            />
               	                
               
@@ -124,6 +129,8 @@ class OrganizationSignUp extends React.Component{
                 label="Contact No"
                 id="contactno"
                 value={this.state.contactno}
+                onChange={e => this.setState({ contactno: e.target.value })}             
+
                           />
               	
             </Grid>
@@ -138,6 +145,8 @@ class OrganizationSignUp extends React.Component{
                 name="contactemail"
                 // autoComplete="email"
                 value={this.state.contactemail}
+                onChange={e => this.setState({ contactemail: e.target.value })}             
+
                          />
               	
             </Grid>
@@ -154,6 +163,8 @@ class OrganizationSignUp extends React.Component{
                 name="country"
                 // autoComplete="subject"
                 value={this.state.country}
+                onChange={e => this.setState({ country: e.target.value })}             
+
                          />
               	                
               
@@ -168,6 +179,8 @@ class OrganizationSignUp extends React.Component{
                 name="state"
                 // autoComplete="subject"
                 value={this.state.state}
+                onChange={e => this.setState({ state: e.target.value })}             
+
                       />
               	                
               
@@ -182,6 +195,8 @@ class OrganizationSignUp extends React.Component{
                 name="city"
                 // autoComplete="class"
                 value={this.state.city}
+                onChange={e => this.setState({ city: e.target.value })}             
+
                        />
               	                
             </Grid>
@@ -195,6 +210,8 @@ class OrganizationSignUp extends React.Component{
                 name="area"
                 // autoComplete="class"
                 value={this.state.area}
+                onChange={e => this.setState({ area: e.target.value })}             
+
                         />
               	                
               

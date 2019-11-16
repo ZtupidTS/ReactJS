@@ -67,7 +67,8 @@ class InstituteSignUp extends React.Component {
                     name="institutename"
                     autoFocus
                     value={this.state.institutename}
-                       
+                    onChange={e => this.setState({ institutename: e.target.value })}             
+   
                 
                 />
                 <TextField
@@ -80,7 +81,8 @@ class InstituteSignUp extends React.Component {
                     name="institutebranch"
                     autoFocus
                     value={this.state.institutebranch}
-                          
+                    onChange={e => this.setState({ institutebranch: e.target.value })}             
+      
                 
                 />
                 <TextField
@@ -93,7 +95,8 @@ class InstituteSignUp extends React.Component {
                     type="institutecode"
                     id="institutecode"
                     value={this.state.institutecode}
-                         
+                    onChange={e => this.setState({ institutecode: e.target.value })}             
+     
                 
                 />
                 <TextField
@@ -106,7 +109,8 @@ class InstituteSignUp extends React.Component {
                     type="domainemailid"
                     id="domainemailid"
                     value={this.state.domainemailid}
-                          
+                    onChange={e => this.setState({ domainemailid: e.target.value })}             
+      
                 
                 />
                 

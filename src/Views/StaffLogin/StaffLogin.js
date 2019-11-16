@@ -68,7 +68,8 @@ class Login extends React.Component {
                     // autoComplete="username"
                     autoFocus
                     value={this.state.username}
-                          
+                    onChange={e => this.setState({ username: e.target.value })}             
+     
                 
                 />
                 <TextField
@@ -82,7 +83,8 @@ class Login extends React.Component {
                     id="password"
                     // autoComplete="current-password"
                     value={this.state.password}
-                
+                    onChange={e => this.setState({ password: e.target.value })}             
+
                 
                 />
                 

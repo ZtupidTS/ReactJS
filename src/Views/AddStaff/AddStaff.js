@@ -78,7 +78,9 @@ class AddStaff extends React.Component{
                 id="firstName"
                 label="First Name"
                 autoFocus
-                value={this.state.firstname}            
+                value={this.state.firstname}     
+                onChange={e => this.setState({ firstname: e.target.value })}             
+       
                  />
               	
             </Grid>
@@ -92,6 +94,8 @@ class AddStaff extends React.Component{
                 name="lastName"
                 autoComplete="lastname"
                 value={this.state.lastname}
+                onChange={e => this.setState({ lastname: e.target.value })}             
+
                               />  
             </Grid>
             
@@ -105,6 +109,8 @@ class AddStaff extends React.Component{
                 name="Username"
                 // autoComplete="department"
                 value={this.state.username}
+                onChange={e => this.setState({ username: e.target.value })}             
+
               />  
             </Grid>
             <Grid item xs={12} >
@@ -117,6 +123,8 @@ class AddStaff extends React.Component{
                 name="Department"
                 // autoComplete="department"
                 value={this.state.department}
+                onChange={e => this.setState({ department: e.target.value })}             
+
                 />
               	               
             </Grid>
@@ -131,6 +139,8 @@ class AddStaff extends React.Component{
                 name="role"
                 // autoComplete="subject"
                 value={this.state.role}
+                onChange={e => this.setState({ role: e.target.value })}             
+
                  />
               	                
               
@@ -145,6 +155,8 @@ class AddStaff extends React.Component{
                 name="emailid"
                 // autoComplete="otp"
                 value={this.state.emailid}
+                onChange={e => this.setState({ emailid: e.target.value })}             
+
                  />
               	                
               
@@ -159,6 +171,8 @@ class AddStaff extends React.Component{
                 name="otp"
                 // autoComplete="otp"
                 value={this.state.otp}
+                onChange={e => this.setState({ otp: e.target.value })}             
+
                 />
               	                
               

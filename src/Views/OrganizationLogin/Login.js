@@ -66,6 +66,8 @@ class Login extends React.Component {
                     // autoComplete="username"
                     autoFocus
                     value={this.state.userid}
+                    onChange={e => this.setState({ userid: e.target.value })}             
+
                          
                 
                 />
@@ -80,6 +82,8 @@ class Login extends React.Component {
                     id="otp"
                     // autoComplete="current-password"
                     value={this.state.otp}
+                    onChange={e => this.setState({ otp: e.target.value })}             
+
                       
                 
                 />
